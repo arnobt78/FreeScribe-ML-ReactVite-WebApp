@@ -6,7 +6,7 @@
 
 FreeScribe is a Machine Learning (ML) React Vite TailwindCSS Web Based Transcription and Translation App that uses Web Workers to run ML models in the browser. This app allows you to record your voice or upload an audio file (mp3/wav), transcribe it to text, translate it into any language, and download or copy the freshly converted text that has been transcribed. This kind of app is essential and expensive in the IT manufacturing field, but it's integrated here smoothly, shared, and at no cost.
 
-**Note: To chech this webapp live, click here: https://free-scribe-arnob.vercel.app/ **
+**Note: To chech this webapp live, click here:** https://free-scribe-arnob.vercel.app/
 
 ## To Install Dependences
 
