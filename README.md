@@ -4,7 +4,7 @@
 
 ## FreeScribe-ML-React-WebApp
 
-FreeScribe is a Machine Learning (ML) React Vite TailwindCSS Web Based Transcription and Translation App that uses Web Workers to run ML models in the browser. This app allows you to record your voice or upload an audio file (mp3/wav), transcribe it to text, translate it into any language, and download or copy the freshly converted text that has been transcribed. This kind of app is essential and expensive in the IT manufacturing field, but it's integrated here smoothly, shared, and at no cost.
+FreeScribe is a Machine Learning (ML) React Vite TailwindCSS Web Based Transcription and Translation App that uses Web Workers to run ML models in the browser. This app allows you to record your voice or upload an audio file (mp3/wav), transcribe it to text, translate it into any language, and download or copy the freshly converted text that has been transcribed and deployed on Vercel. This kind of app is essential and expensive in the IT manufacturing field, but it's integrated here smoothly, shared, and at no cost.
 
 **Note: To check this web app live, click here:** https://free-scribe-arnob.vercel.app/
 
@@ -28,7 +28,8 @@ Then install tailwindcss and its peer dependencies, then generate your `tailwind
 
 Then add the paths to all of your template files in your tailwind.config.js file.
 
-`/** @type {import('tailwindcss').Config} */
+```
+/** @type {import('tailwindcss').Config} */
 export default {
   content: [
     "./index.html",
@@ -38,13 +39,16 @@ export default {
     extend: {},
   },
   plugins: [],
-}`
+}
+```
 
 Then add the @tailwind directives for each of Tailwind’s layers to your ./src/index.css file.
 
-`@tailwind base;
+```
+@tailwind base;
 @tailwind components;
-@tailwind utilities;`
+@tailwind utilities;
+```
 
 Run your project: `npm run dev`
 
