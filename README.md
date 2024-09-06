@@ -58,5 +58,5 @@ Run this command via terminal from your project folder: `npm i @xenova/transform
 
 ## About presets.js File
 
-I copied that file from GitHub. Its pretty same overall.
+I copied that presets.js file from GitHub. Its pretty same to use for transcription and translation overall. Here I used web worker as well.
 
