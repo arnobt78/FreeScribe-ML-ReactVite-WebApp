@@ -24,7 +24,7 @@ Open up your terminal and bootstrap a new React Vite App by: `npm create vite@la
 
 Then go to that project folder, and write this command via terminal from your project folder: `npm install -D tailwindcss postcss autoprefixer`
 
-Then install tailwindcss and its peer dependencies, then generate your `tailwind.config.js` and `postcss.config.js` files.: `npx tailwindcss init -p`
+Then install tailwindcss and its peer dependencies, then generate your `tailwind.config.js` and `postcss.config.js` files: `npx tailwindcss init -p`
 
 Then add the paths to all of your template files in your tailwind.config.js file.
 
