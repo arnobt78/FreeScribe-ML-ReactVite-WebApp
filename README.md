@@ -52,6 +52,8 @@ Then add the @tailwind directives for each of Tailwind’s layers to your ./src/
 
 Run your project: `npm run dev`
 
+Run on your browser Local: `http://localhost:5173/`
+
 (For more details, visit: https://tailwindcss.com/docs/guides/vite )
 
 ## To Install `@xenova/transformers`
